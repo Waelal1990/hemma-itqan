@@ -1,0 +1,47 @@
+*{
+  letter-spacing:normal !important;
+}
+body{
+  font-family: "Cairo", sans-serif;
+}
+
+nav .logoContent a{
+  font-size: 25px;
+}
+
+nav .nav-link{
+  font-size: 18px;
+}
+
+.homeSection .content h1{
+  font-size: 38px;
+}
+.homeSection .content h2{
+  font-size: 20px;
+}
+
+
+/*  */
+
+.WhyChooseUsSection{
+  transform: scaleX(-1);
+}
+
+.WhyChooseUsSection .content{
+  left: 0;
+  transform: scaleX(-1);
+  line-height: 1.7;
+}
+
+.mission_vision .row .imgSection{
+  border-right-color:white;
+  border-right-width:1px;
+  border-right-style:solid;
+  border-left-width:0px;
+}
+
+/* servicesList */
+
+.servicesList .row .cover > div .textContent h3{
+  font-size: 22px;
+}

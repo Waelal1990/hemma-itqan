@@ -1,0 +1,545 @@
+/* ----------------------- NavBar  -------------------------*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 58px;
+}
+
+nav {
+  background-color: #266677f9;
+}
+
+nav::after {
+  position: absolute;
+  content: "";
+  width: calc(100%);
+  border-bottom: 1px solid white;
+  bottom: 0;
+}
+
+nav .nav-link {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0 10px;
+}
+
+nav .nav-link:hover {
+  color: #1dd6c5 !important;
+}
+
+nav .nav-link.active {
+  color: #10ffe9 !important;
+}
+
+nav .logoContent img {
+  width: 50;
+  height: 45px;
+}
+
+nav .logoContent a {
+  font-family: 'serif';
+  font-family: serif;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width:992px) {
+  nav .logoContent a {
+    font-size: 17px;
+  }
+}
+
+nav .langBtn {
+  margin-inline-start: 30px;
+  color: #ff9800;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+
+@media (max-width:992px) {
+  nav .langBtn {
+    display: block;
+    text-align: end;
+  }
+}
+
+/* ------------------- Header Secion  -------------------------*/
+
+.homeSection {
+  background-image: linear-gradient(180deg, rgba(38, 102, 119, 0.11537114845938379) 0%, rgba(38, 102, 119, 0.7456232492997199) 100%), url('../assets/home_Image.jpg');
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+.homeSection .content img {
+  width: 105px;
+  height: 90px;
+}
+
+.homeSection .content h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: serif;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 7px;
+  font-weight: 500;
+}
+
+@media (max-width:600px) {
+  .homeSection .content h1 {
+    font-size: 25px;
+  }
+}
+
+.homeSection .content h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #bcd1d8;
+  letter-spacing: 4px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.homeSection .content .info {
+  font-family: 'Times New Roman', Times, serif;
+  color: #bcd1d8;
+  letter-spacing: 4px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+@media (max-width:600px) {
+  .homeSection .content .info h3 {
+    font-size: 15px !important;
+  }
+}
+
+/* ----------------------- introductionSection  -------------------------*/
+
+.introductionSection {
+  border-top: 1px solid white;
+  background-image: url('../assets/introSection.jpg');
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.introductionSection .content {
+  background-color: #266677a8;
+  padding-top: 100px;
+  max-width: 700px;
+}
+
+.introductionSection .content img {
+  width: 60px;
+  height: 55px;
+}
+
+.introductionSection .content h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: serif;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-weight: 500;
+
+}
+
+.introductionSection .content h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #bcd1d8;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.introductionSection .content .info {
+  color: white;
+  /* font-size: 17px; */
+}
+
+/* ----------------------- Why Choose Us  -------------------------*/
+
+.WhyChooseUsSection {
+  background-image: url('../assets/whyCooseUs.jpg');
+  border-top: 1px solid white;
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.WhyChooseUsSection .content {
+  position: absolute;
+  left: 0;
+  max-width: 550px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.WhyChooseUsSection .content h2 {
+  color: white;
+  text-shadow: 2px 2px #607D8B;
+  font-size: 46px;
+}
+
+.WhyChooseUsSection .content p {
+  margin-top: 30px;
+  color: #19425b;
+  font-size: 18px;
+}
+
+@media (max-width:600px) {
+  .WhyChooseUsSection .content h2 {
+    font-size: 36px;
+  }
+
+  .WhyChooseUsSection .content p {
+    font-size: 16px;
+  }
+}
+
+/* mission_vision */
+
+.mission_vision .row .textSection {
+  width: 100%;
+  height: 100vh;
+  background-color: #266677;
+  color: white;
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width:992px) {
+  .mission_vision .row .textSection {
+    background-image: linear-gradient(180deg, rgba(38, 102, 119, 0.57) 0%, rgba(38, 102, 119, 0.663) 100%), url('../assets/Mission_Vision.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (max-width:650px) {
+  .mission_vision .row .textSection {
+    padding: 0 20px;
+  }
+}
+
+.mission_vision .row .textSection>div {
+  max-width: 550px;
+}
+
+.mission_vision .row .textSection>div h3 {
+  font-size: 27px;
+}
+
+.mission_vision .row .imgSection {
+  background-image: linear-gradient(180deg, rgba(38, 102, 119, 0.11537114845938379) 0%, rgba(38, 102, 119, 0.577) 100%), url('../assets/Mission_Vision.jpg');
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-left-color: white;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.mission_vision .row .imgSection .logoContent {
+  padding-top: 100px;
+}
+
+.mission_vision .row .imgSection .logoContent img {
+  width: 60px;
+  height: 55px;
+}
+
+.mission_vision .row .imgSection .logoContent h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: serif;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-weight: 500;
+
+}
+
+.mission_vision .row .imgSection .logoContent h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #bcd1d8;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+@media (max-width:992px) {
+  .mission_vision .row .imgSection {
+    display: none;
+  }
+}
+
+/* ----------------------- Services  -------------------------*/
+
+.services {
+  min-height: 90vh;
+  width: 100%;
+  background-color: #266677;
+  border-top: 1px solid white;
+  position: relative;
+}
+
+.services figure img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 470px;
+}
+
+@media (max-width:992px) {
+  .services figure img {
+    display: none;
+  }
+}
+
+.services .textContent {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: white;
+}
+
+@media (max-width:1100px) {
+  .services .textContent {
+    left: 50%;
+  }
+}
+
+@media (max-width:992px) {
+  .services .textContent {
+    position: static;
+    padding-top: 50px;
+  }
+}
+
+.services .textContent h3 {
+  padding-left: 5px;
+  margin-bottom: 30px;
+  font-size: 37px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.421);
+  letter-spacing: 1px;
+}
+
+.services .textContent>div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.services .textContent>div img {
+  width: 40px;
+  height: 40px;
+}
+
+.services .textContent>div p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* servicesList */
+.servicesList {
+  background-color: #bfd1db;
+  padding-bottom: 50px;
+}
+
+.servicesList .heading {
+  padding: 50px 0 50px;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 2px 2px #607D8B;
+  font-size: 46px;
+  text-align: center;
+}
+
+.servicesList .row .cover>div {
+  background-color: white;
+  box-shadow: rgb(221, 221, 221) 0px 0px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.servicesList .row .cover>div .textContent {
+  padding: 15px 15px 20px;
+}
+
+.servicesList .row .cover > div p {
+  margin: 0;
+  text-align: justify;
+}
+
+/* ----------------------- facilitiesManagement  -------------------------*/
+
+.facilitiesManagement {
+  border-top: 1px solid white;
+  background-color: #bfd1db;
+  padding: 50px 0;
+}
+
+.facilitiesManagement .container {
+  background-image: linear-gradient(#266677bd 0%, rgba(38, 102, 119, 0.782) 100%), url('../assets/facilitiesManagement.jpg');
+  padding: 100px;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+@media (max-width:992px) {
+  .facilitiesManagement .container {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width:767px) {
+  .facilitiesManagement .container {
+    padding: 100px 20px;
+  }
+}
+
+.facilitiesManagement .logoContent img {
+  width: 60px;
+  height: 55px;
+}
+
+.facilitiesManagement .logoContent h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: serif;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 5px;
+  font-weight: 500;
+
+}
+
+.facilitiesManagement .logoContent h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #bcd1d8;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.facilitiesManagement .content h3 {
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+
+.facilitiesManagement .content p {
+  font-size: 17px;
+  /* font-weight:500; */
+}
+
+.facilitiesManagement .content>div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.facilitiesManagement .content img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width:767px) {
+  .facilitiesManagement .content h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .facilitiesManagement .content>p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .facilitiesManagement .content div p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px !important;
+  }
+}
+
+/* ------------------------------ contactUs ---------------------------------- */
+
+.contactUs {
+  background-color: #266677;
+  padding: 70px 0;
+}
+
+.contactUs h3 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 37px;
+}
+
+.contactUs .details {
+  color: white;
+  margin-top: 50px;
+}
+
+.contactUs .details a,
+.contactUs .details > div {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  width: fit-content;
+}
+
+.contactUs .details i {
+  font-size: 22px;
+}
+
+@media (max-width:767px) {
+  .contactUs iframe {
+    height: 300px;
+  }
+}
+
+/*-------------------------- Footer ------------------------ */
+
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.304);
+  background-color: #266677;
+  color: white;
+  text-align: center;
+  padding: 13px 0;
+}
+
+footer h5 {
+  font-size: 13px;
+}
+
+footer a {
+  font-size: 12px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  width: fit-content;
+  margin: auto;
+}
